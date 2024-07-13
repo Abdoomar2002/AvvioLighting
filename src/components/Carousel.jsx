@@ -46,26 +46,21 @@ function Carousel() {
       }
     }, time);
   }
-  /**  <video
-            ref={videoRef}
-            autoPlay
-            loop
-            onEnded={handleVideoEnd} // Call the function when the video ends
-            style={{ maxWidth: '100%' }}
-          >
-            <source src="video.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video> */
+
   return (
     <Car
       interval={null}
       ref={carouselRef}
       showthumbs={"false"}
-      style={{ height: "100vh", top: 0 }}
+      style={{ height: "100vh", width: "100vw", top: 0 }}
     >
       {items.map((e, index) => {
         return (
-          <Car.Item key={index} id={index} style={{ height: "100vh" }}>
+          <Car.Item
+            key={index}
+            id={index}
+            style={{ height: "100vh", width: "100vw" }}
+          >
             <div
               className="container"
               style={{
@@ -94,28 +89,16 @@ function Carousel() {
             </div>
             {e.img.includes("mp4") && (
               <video
-                key={index}
-                className="d-block "
-                src={
-                  "https://avvio-website-w5pw.onrender.com/public/Home/video/Slide.mp4"
-                }
-                // onLoadedData={handleLoadedData}
-
-                alt="Slide 1"
+                ref={videoRef}
+                src="/imgs/v1.mp4"
                 autoPlay
-                muted
-                style={{
-                  opacity: 0.9,
-                  position: "absolute",
-                  top: 0,
-                  left: "50%",
-                  transform: "translateX(-50%)",
-                  width: "100vw",
-                  height: "100vh",
-                  objectFit: "cover   ",
-                }}
                 loop
-              />
+                onEnded={handleVideoEnd} // Call the function when the video ends
+                style={{ width: "99vw" }}
+              >
+                <source src="video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             )}
           </Car.Item>
         );
