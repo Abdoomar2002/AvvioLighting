@@ -1,0 +1,89 @@
+{
+  "status": "success",
+  "length": 1,
+  "docs": [
+    {
+      "_id": "64c5fc22b0d08388e101a07f",
+      "categories": {
+        "Sample Category": {
+          "productType": [
+            "Sample Type",
+            "Street Light",
+            "Emergency Bulkhead",
+            "Exit Sign",
+            "Emergency Bulkhead",
+            "Exit Sign"
+          ],
+          "categoryImage": [
+            "category_image.jpg",
+            "category_image.jpg",
+            "category_image.jpg",
+            "category_image.jpg",
+            "category_image.jpg",
+            "category_image.jpg"
+          ],
+          "length": 6,
+          "_id": "64c5fc22b0d08388e101a080"
+        },
+        "Architectural": {
+          "productType": [
+            "Step Light",
+            "Projector",
+            "Linear Light",
+            "Flexible Strip",
+            "Neon Flex"
+          ],
+          "categoryImage": [
+            "category_image.jpg",
+            "category_image.jpg",
+            "category_image.jpg",
+            "category_image.jpg",
+            "category_image.jpg"
+          ],
+          "length": 5,
+          "_id": "64c5fc22b0d08388e101a081"
+        },
+        "Outdoor": {
+          "productType": ["Street Light"],
+          "categoryImage": "led_strips_category.jpg",
+          "length": 1,
+          "_id": "64c5fc22b0d08388e101a082"
+        },
+        "LED Strips": {
+          "productType": ["Flexible Strip"],
+          "categoryImage": "led_strips_category.jpg",
+          "length": 1,
+          "_id": "64c5fc22b0d08388e101a083"
+        },
+        "Strip Light & Neon Flex": {
+          "productType": ["Strip Light", "Neon Flex"],
+          "categoryImage": "led_strips_category.jpg",
+          "length": 2,
+          "_id": "64c5fc22b0d08388e101a084"
+        },
+        "Emergency Lighting": {
+          "productType": ["Wall Mount"],
+          "categoryImage": "emergency_lighting_category.jpg",
+          "length": 1,
+          "_id": "64c5fc22b0d08388e101a085"
+        },
+        "Exit & Emergency": {
+          "productType": [
+            "Exit Sign",
+            "Emergency Downlight",
+            "Emergency Bulkhead"
+          ],
+          "categoryImage": [
+            "led_strips_category.jpg",
+            "led_strips_category.jpg",
+            "led_strips_category.jpg"
+          ],
+
+          "length": 3,
+          "_id": "64c5fc22b0d08388e101a086"
+        }
+      },
+      "length": 7
+    }
+  ]
+}

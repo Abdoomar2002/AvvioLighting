@@ -1,0 +1,9 @@
+.dark-carousel .carousel-indicators {
+  background-color: #000; /* Dark background color for indicators */
+}
+
+.dark-carousel .carousel-indicators li {
+  background-color: #888; /* Dark color for indicator dots */
+}
+
+/* Add more dark-themed styles here */

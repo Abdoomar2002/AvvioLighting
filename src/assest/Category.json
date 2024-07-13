@@ -1,0 +1,24 @@
+[
+  {
+    "Sample Category": {
+      "productType": [
+        "Sample Type",
+        "Street Light",
+        "Emergency Bulkhead",
+        "Exit Sign",
+        "Emergency Bulkhead",
+        "Exit Sign"
+      ],
+      "categoryImage": [
+        "category_image.jpg",
+        "category_image.jpg",
+        "category_image.jpg",
+        "category_image.jpg",
+        "category_image.jpg",
+        "category_image.jpg"
+      ],
+      "length": 6,
+      "_id": "64c5fc22b0d08388e101a080"
+    }
+  }
+]

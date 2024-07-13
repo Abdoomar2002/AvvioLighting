@@ -1,0 +1,37 @@
+{
+  "status": "success",
+  "length": 1,
+  "docs": [
+    {
+      "_id": "64d4fcda8e53ad2604e638c5",
+      "imagesFolder": "T66",
+      "numberOfImages": 5,
+      "vectors": ["default vectors"],
+      "categoryName": "Outdoor",
+      "categoryImage": "default.png",
+      "description": "default description",
+      "points": ["default points"],
+      "productType": "Street Light",
+      "datasheet": "datasheet.pdf",
+      "model": "T66",
+      "tabel": {
+        "wattage": [20, 30, 40, 50, 60, 90, 100, 120, 150, 180, 200, 240],
+        "lumen": [
+          2400, 3600, 4800, 6000, 7200, 10800, 12000, 14400, 18000, 21600,
+          24000, 28800
+        ],
+        "efficacy": "Up to 120",
+        "CCT": ["2700K", "3000K", "4000K", "5000K", "5700K", "Amber"],
+        "CRI": ["70", "80"],
+        "IPRating": ["IP66"],
+        "IKRating": "IK09",
+        "operatingVoltage": ["00-240 VA"],
+        "Size": [],
+        "Installation": [],
+        "LEDs": [],
+        "PCBWidth": [],
+        "accessories": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "buttons": [
+      {
+        "slide": "0",
+        "aria": "Slide 1"
+      },
+      {
+        "slide": "1",
+        "aria": "Slide 2"
+      },
+      {
+        "slide": "2",
+        "aria": "Slide 3"
+      }
+    ],
+    "items": [
+      {
+        "img": "2.mp4",
+        "heading": "Example heading.",
+        "text": "Some representative placeholder text for the first slide of the carousel.",
+        "link": "/Home",
+        "button": "Home"
+      }
+    ]
+  }
+]

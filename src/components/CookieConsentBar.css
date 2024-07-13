@@ -1,0 +1,32 @@
+.cookie-consent-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #dc3545;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  z-index: 99999;
+  justify-content: center;
+}
+.translate-up {
+  height: max-content;
+  transform: translateY(0%);
+  transition: all ease 0.8s;
+}
+.translate-down {
+  transform: translateY(100%);
+  transition: all ease 0.3s;
+}
+.cookie-consent-bar button {
+  margin-left: 10px;
+}
+.cookie-consent-bar p {
+  width: 70vw;
+  line-height: 2;
+  a {
+    margin-left: 10px;
+  }
+}
